@@ -1,0 +1,12 @@
+[package]
+name = "compose-toml"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.17", features = ["derive"] }
+colored = "2.1.0"
+docker-compose-types = "0.14.0"
+serde_yml = "0.0.12"
+thiserror = "1.0.63"
+toml = { version = "0.8.19", default-features = false, features = ["parse"] }
